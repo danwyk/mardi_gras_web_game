@@ -8,6 +8,10 @@
 ### Superpower: Doubles Player Speed
 There only way to get a superpower is to move the player to step on a golden mushroom. This will not only increases the score by the same unit as stepping on "beads" and "candy", but also doubles the moving speed of the player. This effect will last for 5 seconds. After 5 seconds, the player will return to its original speed (25px). Notice that stepping on multiple golden mushrooms will not increases the player's speed exponentially. The maximum moving speed is set to be 50px. In other words, if the player have already gained the superpower, stepping on golden mushrooms would not have any effect, not even extending the superpower lasting time.  
 
+
+<img src="https://github.com/danwyk/mardi_gras_web_game/blob/main/superpower.png" width="1000">
+
+
 <br>
 
 ### Superpower Indicator: Golden Mushroom
@@ -36,6 +40,10 @@ I added a handler to parse the input string into a list of integers. If there ar
 - input: a100 => frequency: 100  
 - input: a10a10 => frequency: 1010  
 - input: 1a0 100 => frequency: 1100  
+
+
+<img src="https://github.com/danwyk/mardi_gras_web_game/blob/main/set_frequency.png" width="1000">
+
 
 <br>
 
